@@ -166,7 +166,7 @@ file(GLOB SRC_MAIN
 
 target_sources(${PROJECT_NAME} PRIVATE
     ${SRC_MAIN}
-    # ${EASYLOGGING}
+    ${EASYLOGGING}
     ${EMPTY_RESOURCES}
     ${CMAKE_JS_SRC}
     )

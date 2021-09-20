@@ -1,6 +1,6 @@
 {
   "name": "magnumintegrationjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CMake-js wrapper to build Magnum Integrations C++ graphics lib + imgui",
   "main": "lib/index.js",
   "scripts": {
