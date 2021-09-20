@@ -11,25 +11,23 @@
     "build": "cross-var cmake-js build -CG 'Visual Studio 16 2019' --CDCMAKE_TOOLCHAIN_FILE=$VCTOOL --CDVCPKG_ROOT=$VCPKG_DIR --CDCMAKE_INSTALL_PREFIX=../magnum-integration --CDVCPKG_TARGET_TRIPLET=x64-windows",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependency": {
-    "corradejs": "*"
-  },
+  "peerDependency": {},
   "dependencies": {
     "bindings": "~1.2.1",
+    "cmake-js": "^6.2.1",
+    "corradejs": "^1.0.1",
     "cross-var": "^1.1.0",
+    "magnumcppjs": "^1.0.2",
     "node-addon-api": "^3.2.1"
-  },
-  "devDependencies": {
-    "cmake-js": "^6.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OptimusLime/magnumjs.git"
+    "url": "git+https://github.com/OptimusLime/magnumintegrationjs.git"
   },
   "author": "Paul Szerlip",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OptimusLime/magnumjs/issues"
+    "url": "https://github.com/OptimusLime/magnumintegrationjs/issues"
   },
-  "homepage": "https://github.com/OptimusLime/magnumjs#readme"
+  "homepage": "https://github.com/OptimusLime/magnumintegrationjs#readme"
 }
